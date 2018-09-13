@@ -1,0 +1,12 @@
+{
+  "plugins": [
+      ["react-css-modules", {
+        "filetypes": {
+          ".less": {
+              "syntax": "postcss-less"
+          }
+        },
+        "generateScopedName": "[name]--[local]--[hash:base64:5]"
+      }]
+  ]
+}
